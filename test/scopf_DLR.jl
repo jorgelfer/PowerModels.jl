@@ -35,10 +35,6 @@ using PowerModels
 
 # Load System Data
 # ----------------
-# powermodels_path = joinpath(dirname(pathof(PowerModels)), "..")
-
-# file_name = "$(powermodels_path)/test/data/matpower/case5.m"
-# note: change this string to modify the network data that will be loaded
 dataset = "ACTIVSg2000"
 InFile1 = "ACTIVSg2000.RAW"
 
